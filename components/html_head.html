@@ -19,7 +19,8 @@
     <meta {{ attribute(key_name, meta.name) }} content="{{ meta.value }}">
   {% endif %}
 {% endfor %}
-<link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@300;400;500;600;700;800&family=Raleway:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ 'css/main.css' | relative_url }}">
 {% if site.params.favicon %}
 <link rel="icon" href="{{ site.params.favicon | relative_url }}">
